@@ -1,3 +1,0 @@
-[submodule "baremetal-helloqemu"]
-	path = baremetal-helloqemu
-	url = https://github.com/aehs29/baremetal-helloqemu
