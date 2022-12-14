@@ -5,5 +5,5 @@ _start:
         as the beginning of our program */
         ldr x29, =stack_top
         mov sp, x29
-        bl rust_entry
+        bl c_entry
         b .
