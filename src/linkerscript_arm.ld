@@ -7,7 +7,7 @@ SECTIONS{
         /* Put startup code at the beginning */
         /* Only put the text section of startup.o */
         /* Put all other sections from others */
-        .stub : { startup.o(.text) }
+        .stub : { *(.text) }
         .text : { *(.text) }
         .rodata : { *(.rodata) }
         .data : { *(.data) }
